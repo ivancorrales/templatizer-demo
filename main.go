@@ -12,5 +12,5 @@ func main() {
 }
 
 func greet() string {
-	return GetMessage()
+	return {{.RepoName}}.GetMessage()
 }
