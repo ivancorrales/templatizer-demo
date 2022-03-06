@@ -1,0 +1,5 @@
+variables:
+  - name: DefaultMessage
+  - name: RepoOrg
+  - name: RepoName
+  - name: GoVersion
