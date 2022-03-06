@@ -1,5 +1,11 @@
 variables:
   - name: DefaultMessage
+    description: A secret message to be shown
+    secret: true
   - name: RepoOrg
+    description: Repository Organization
   - name: RepoName
+    description: Name of the Repository
   - name: GoVersion
+    description: Version of Go
+    default: 1.17
