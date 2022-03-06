@@ -8,7 +8,6 @@ import (
 
 func main() {
 	fmt.Println(greet())
-	{{.RepoName}}.PrintVersion()
 }
 
 func greet() string {
