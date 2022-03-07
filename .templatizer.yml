@@ -9,3 +9,6 @@ variables:
   - name: GoVersion
     description: Version of Go
     default: 1.17
+  - name: Application
+    description: Name of the application
+    default: myapp
