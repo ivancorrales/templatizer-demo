@@ -1,5 +1,5 @@
 build:
-	docker build -it {{.Application}} .
+	docker build -t {{.Application}} .
 
 run: 
 	docker run {{.Application}}
